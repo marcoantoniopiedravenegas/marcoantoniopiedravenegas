@@ -1,0 +1,34 @@
+﻿Marco Piedra Venegas
+mpiedrav@proton.me
++506 8624-4702
+
+Description
+
+Computer Science student at University of Costa Rica (graduation: October 2025). I enjoy analyzing and solving complex, intricate problems in computing. I’ve worked in system administration and software development, focusing on performance and security, as well as data analysis in engineering domains. I’m skilled in technologies like Linux (Debian), SQL (PostgreSQL), cloud computing (AWS), Python (SciPy, Pandas, Scikit-Learn) and R.
+ 
+Experience
+
+Universidad de Costa Rica (2024–2025): Project Specialist
+I performed statistical analysis (ANOVA, PCA) of geospatial data, using R and Python, to optimize field measurement in a zoning regulation project. I reduced measurement time by 75%. Also, I performed evaluation of images of public infrastructure using vision-language models (Claude Sonnet), Python, R, PostgreSQL, and AWS (RDS, EC2).
+
+Altus (2016–2019): Software Engineer
+I automated CI/CD in the SDLC of third-party web extensions for Cisco collaboration platforms, using Docker and GitLab, which reduced deployment time by 60%. Also, I wrote backends (RESTful APIs) in Golang and Python. Additionally, I designed interoperability middleware for a legacy unified communications system, by reverse-engineering binaries (compiled from Java and C++ sources) and proprietary network protocols. 
+
+Altus (2015–2016): Server Specialist
+I supported mission-critical Linux server infrastructure, including a CRM (Java, Tomcat), DNS servers (PowerDNS), and database servers (Oracle DB), on a rotating, on-call basis. I solved critical issues within SLA times (99%). Also, I provided technical support to network engineers and business analysts and monitored ISP-grade telecommunications devices using Zabbix.
+
+Universidad de Costa Rica (2007–2015): Information Technology Specialist
+I assisted system administrators at academic units, including Department of Mathematics, Department of Computer Science, Department of Modern Languages, and Faculty of Science. I configured academic websites on Debian Linux servers, using PHP-based CMS (Drupal, Moodle), Apache HTTP Server, and MySQL. Also, I edited academic documents in LaTeX.
+
+Sykes (2005–2006): Technical Support Agent
+I provided email-based technical support to customers the German-speaking market, improving customer satisfaction by 25%. I was consistently praised by the quality assurance team, because of thoroughness in analyzing technical issues.
+ 
+Education 
+
+Universidad de Costa Rica (2006–2025): Bachelor's in Computer Science
+Relevant coursework included Parallel and Concurrent Programming, Operating Systems, Database Systems, Software Engineering, Computer Architecture, Design of Experiments, and Modeling and Optimization.
+
+Languages
+
+English (C1). German (C1). Spanish (native).
+

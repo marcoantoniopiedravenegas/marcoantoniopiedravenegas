@@ -1,0 +1,15 @@
+Bishop, C. M. (1995). Neural Networks for Pattern Recognition. Oxford.
+
+8:
+
+Although the effects of dimensionality are generally not as severe as the example of Figure 1.5 might suggest, it remains true that, in many problems, reducing the number of input variables can sometimes lead to improved performance for a given data set, even though information is being discarded. The fixed quantity of data is better able to specify the mapping in the lower-dimensional space, and this more than compensates for the loss of information. In our simple character recognition problem we could have considered all 65536 pixel values as inputs to our non-linear model. Such an approach, however, would be expected to give extremely poor results as a consequence of the effects of dimensionality coupled with a limited size of data set. As we shall discuss in Chapter 8, one of the important roles of pre-processing in many applications is to reduce the dimensionality of the data before using it to train a neural network or other pattern recognition system.
+
+9:
+
+We can regard E as being a function of w, and so the polynomial can be fitted to the data by choosing a value for w, which we denote by w’, which minimizes E. Note that the polynomial (1.2) is a linear function of the parameters w and so (1.3) is a quadratic function of w. This means that the minimum of E can be found in terms of the solution of a set of linear algebraic equations (Exercise 1.5). Functions which depend linearly on the adaptive parameters are called linear models, even though they may be non-linear functions of the original input variables. Many concepts which arise in the study of such models are also of direct relevance to the more complex non-linear neural networks considered in Chapters 4 and 5. We therefore present an extended discussion of linear models (in the guise of ‘single-layer networks’) in Chapter 3.
+
+14:
+
+Using an example of polynomial curve fitting, we have seen that the best generalization performance is achieved by a model whose complexity (measured here by the order of the polynomial) is neither too small nor too large. The problem of finding the optimal complexity for a model provides an example of Occam’s razor, named after William of Occam (1285-1349). This is the principle that we should prefer simpler models to more complex models, and that this preference should be traded off against the extent to which the models fit the data. Thus a highly complex model which fits the data extremely well (such as the 10th-order polynomial above) actually gives a poorer representation of the systematic aspects of the data than would a simpler model (such as the 3rd-order polynomial). A model which is too simple, however, as in the 1st-order polynomial, is also not prefered as it gives too poor a fit to the data. The same considerations apply to neural network models, where again we can control the complexity of the model by controlling the number of free parameters which it possesses.
+
+

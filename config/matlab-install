@@ -1,0 +1,12 @@
+# 2024-12-19 marcopiedravenegas
+# If the following error appears when installing MATLAB on Debian:
+
+# terminate called after throwing an instance of 'std::runtime_error'
+#   what():  Failed to launch web window with error: Unable to launch the MATLABWindow application. The exit code was: 1
+#  Aborted
+
+# then run the installer with the following environment variable
+
+LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libstdc++.so.6 ./install
+
+# 

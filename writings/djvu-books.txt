@@ -1,0 +1,60 @@
+Ahlfors - Complex Analysis - McGraw-Hill - 1979.djvu
+Aho, Hopcroft, and Ullman - Data Structures and Algorithms - Addison-Wesley - 1983.djvu
+Aho, Kernighan, and Weinberger - The AWK Programming Language - Addison-Wesley - 1988.djvu
+Aho, Sethi, and Ullman - Compilers - Addison-Wesley - 1986.djvu
+Allen - Anatomy of LISP - McGraw-Hill - 1978.djvu
+Apostol - Calculus _ Volume 1 - Wiley - 1967.djvu
+Apostol - Calculus _ Volume 2 - Wiley - 1969.djvu
+Bartle - The Elements of Real Analysis - Wiley - 1976.djvu
+Bellman - Dynamic Programming - Princeton - 1957.djvu
+Bentley - More Programming Pearls - Addison-Wesley - 1988.djvu
+Bentley - Programming Pearls - Addison-Wesley - 1986.djvu
+Bergin and Gibson - History of Programming Languages 2 - Addison-Wesley - 1996.djvu
+Billingsley - Probability and Measure - Wiley - 1995.djvu
+Bishop - Neural Networks for Pattern Recognition - Oxford - 1995.djvu
+Butenhof - Programming with POSIX Threads - Addison-Wesley - 1997.djvu
+Chambers, Cleveland, Tukey,  and Kleiner - Graphical Methods for Data Analysis - Wadsworth - 1983.djvu
+Cramer - Mathematical Methods of Statistics - Princeton - 1946.djvu
+Dahl, Dijkstra, and Hoare - Structured Programming - Academic Press - 1972.djvu
+Dantzig - Linear Programming and Extensions - Princeton - 1963.djvu
+Demidovich - Problems in Mathematical Analysis - Mir - 1970.djvu
+Dijkstra - A Discipline of Programming - Prentice Hall - 1976.djvu
+Doob - Stochastic Processes - Wiley - 1953.djvu
+Feller - An Introduction to Probability Theory and Its Applications _ Volume 1 - Wiley - 1968.djvu
+Feller - An Introduction to Probability Theory and Its Applications _ Volume 2 - Wiley - 1971.djvu
+Fisher - Statistical Methods and Scientific Inference - Oliver and Boyd - 1959.djvu
+Fisher - Statistical Methods for Research Workers - Hafner - 1958.djvu
+Fisher - The Design of Experiments - Hafner - 1971.djvu
+Foley, van Dam, Feiner, and Hughes - Computer Graphics - Addison-Wesley - 1996.djvu
+Fukunaga - Introduction to Statistical Pattern Recognition - Academic Press - 1990.djvu
+Gamma, Helm, Johnson, and Vlissides - Design Patterns - 1995.djvu
+Garey and Johnson - Computers and Intractability - W. H. Freeman - 1979.djvu
+Gnedenko - The Theory of Probability - Mir - 1978.djvu
+Hamilton - Time Series Analysis - Princeton - 1994.djvu
+Hoare - Essays in Computing Science - Prentice Hall - 1989.djvu
+Hoffman and Kunze - Linear Algebra - Prentice Hall - 1971.djvu
+Hopcroft and Ullman - Introduction to Automata Theory, Languages, and Computation - Addison-Wesley - 1979.djvu
+Iverson - A Programming Language - Wiley - 1962.djvu
+Kay - Fundamentals of Statistical Signal Processing _ Volume 1 - Prentice Hall - 1993.djvu
+Kay - Fundamentals of Statistical Signal Processing _ Volume 2 - Prentice Hall - 1998.djvu
+Kernighan and Pike - The UNIX Programming Environment - Prentice Hall - 1984.djvu
+Kernighan and Plauger - Software Tools in Pascal - Addison-Wesley - 1981.djvu
+Kernighan and Ritchie - The C Programming Language - Prentice Hall - 1988.djvu
+Mosteller and Tukey - Data Analysis and Regression - Addison-Wesley - 1977.djvu
+Norvig - Paradigms of Artificial Intelligence Programming - Morgan Kaufmann - 1991.djvu
+Plauger - Programming on Purpose 1 - Prentice Hall - 1993.djvu
+Plauger - Programming on Purpose 2 - Prentice Hall - 1993.djvu
+Plauger - Programming on Purpose 3 - Prentice Hall - 1994.djvu
+Plauger - The Standard C Library - Prentice Hall - 1992.djvu
+Queinnec - LISP in Small Pieces - Cambridge - 1996.djvu
+Reynolds - Theories of Programming Languages - Cambridge - 1998.djvu
+Ripley - Pattern Recognition and Neural Networks - Cambridge - 1996.djvu
+Shannon and Weaver - The Mathematical Theory of Communication - Illinois - 1949.djvu
+Sterling and Shapiro - The Art of Prolog - MIT - 1994.djvu
+Tukey - Exploratory Data Analysis - Addison-Wesley - 1977.djvu
+Ullman - Principles of Database Systems - Computer Science Press - 1980.djvu
+Vapnik - Statistical Learning Theory - Wiley - 1998.djvu
+von Neumann and Morgenstern - Theory of Games and Economic Behavior- Princeton - 1953.djvu
+Wexelblat - History of Programming Languages 1 - Academic Press - 1981.djvu
+Wirth - Algorithms + Data Structures = Programs - Prentice Hall - 1976.djvu
+Wirth - Systematic Programming - Prentice Hall - 1973.djvu

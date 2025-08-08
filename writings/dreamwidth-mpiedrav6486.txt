@@ -1,0 +1,128 @@
+Data Consultancy
+Jul. 29th, 2025 11:35 pm
+
+Given that the job market in computing (as of July 2025) is beyond a saturation point, I decided to give it a try as entrepreneur. The idea is to provide data analysis consulting services to local companies and government agencies in Costa Rica. They have plenty of data, but getting insight requires more than filtering Excel sheets or looking at Tableau plots.
+
+While they might have staff trained for extracting information and knowledge (and even wisdom) from their data, their resources are limited. Connecting all the pieces requires serious investigative work that goes beyond everyday operational work. That's where a data consultancy might be helpful.
+
+It's always up to management to make conclusions and recommendations by consultants actionable decisions. The job of the consultant is to perform all the analysis required, as well as conveying all relevant insights. It seems I'll have to learn some advanced visualization techniques.
+
+I prefer working in plain text and command line. Or even low graphics. But visuals can be impressively effective to represent information, not just decorative. A rich visualization can be as necessary to the goals as the right data structure or the appropriate file format.
+
+----
+
+Ridiculum Vitae
+Jul. 29th, 2025 11:34 pm
+
+My Curriculum Vitae, Latin for "course of life", looks like this. However, Ridiculum Vitae, Latin for "laughables of life", would be more appropriate.
+
+Given the current job market in computing, as of July 2025, I know I'll spend at least 6 months looking for a job. My default option is Software Engineer. Data Engineer, Data Analyst, and Data Scientist might make sense to me.
+
+Roles like DevOps Engineer, Site Reliability Engineer, and System Development Engineer are the modern, cloud-native version of SysAdmin from the 1990s. That works for me, too.
+
+Roles like Security Engineer, Security Analyst, and Security Consultant would be interesting. However, I don't have experience in cybersecurity.
+
+Description
+
+Computer Science student at University of Costa Rica (graduation: October 2025). I enjoy analyzing and solving complex, intricate problems in computing. I’ve worked in system administration and software development, focusing on performance and security, as well as data analysis in engineering domains. I’m skilled in technologies like Linux (Debian), SQL (PostgreSQL), cloud computing (AWS), Python (SciPy, Pandas, Scikit-Learn) and R.
+
+Experience
+
+Universidad de Costa Rica (2024–2025): Project Specialist
+I performed statistical analysis (ANOVA, PCA) of geospatial data, using R and Python, to optimize field measurement in a zoning regulation project. I reduced measurement time by 75%. Also, I performed evaluation of images of public infrastructure using vision-language models (Claude Sonnet), Python, R, PostgreSQL, and AWS (RDS, EC2).
+
+Altus (2016–2019): Software Engineer
+I automated CI/CD in the SDLC of third-party web extensions for Cisco collaboration platforms, using Docker and GitLab, which reduced deployment time by 60%. Also, I wrote backends (RESTful APIs) in Golang and Python. Additionally, I designed interoperability middleware for a legacy unified communications system, by reverse-engineering binaries (compiled from Java and C++ sources) and proprietary network protocols.
+
+Altus (2015–2016): Server Specialist
+I supported mission-critical Linux server infrastructure, including a CRM (Java, Tomcat), DNS servers (PowerDNS), and database servers (Oracle DB), on a rotating, on-call basis. I solved critical issues within SLA times (99%). Also, I provided technical support to network engineers and business analysts and monitored ISP-grade telecommunications devices using Zabbix.
+
+Universidad de Costa Rica (2007–2015): Information Technology Specialist
+I assisted system administrators at academic units, including Department of Mathematics, Department of Computer Science, Department of Modern Languages, and Faculty of Science. I configured academic websites on Debian Linux servers, using PHP-based CMS (Drupal, Moodle), Apache HTTP Server, and MySQL. Also, I edited academic documents in LaTeX.
+
+Sykes (2005–2006): Technical Support Agent
+I provided email-based technical support to customers the German-speaking market, improving customer satisfaction by 25%. I was consistently praised by the quality assurance team, because of thoroughness in analyzing technical issues.
+
+Education
+
+Universidad de Costa Rica (2006–2025): Bachelor's in Computer Science
+Relevant coursework included Parallel and Concurrent Programming, Operating Systems, Database Systems, Software Engineering, Computer Architecture, Design of Experiments, and Modeling and Optimization.
+
+Languages
+
+English (C1). German (C1). Spanish (native).
+
+----
+
+Software Engineer
+Jul. 12th, 2025 08:24 pm
+
+I'm always at odds with that job name. Computing isn't engineering in a proper sense, even when we use software in the real world to get results.
+
+Engineering is a principled, well established discipline. They have their scientific foundations from math, physics, chemistry, their time-tested legalese when anything goes awry, and other apparatus that makes engineering a respectable trade.
+
+In contrast, computing is still the Wild West, over half a century since the first commercial computers (e.g., IBM System/360). While there's ACM, the stable principles of computing are to be found outside computing, like in math. Computing itself changes too much to consider any one technology truly stable.
+
+The fully provable world of computational phenomena that Dijkstra envisioned is no longer there. There are just too many oracular, esoteric stages between the current flowing in the silicon stratum and the higher level abstractions, up to the HTTP POST request for this very text.
+
+What we have in computing is reference systems in production, as well as the organizational aspects we publicly know of, whose methods we try to replicate when creating new systems: Agile, RESTful APIs, OOP, design patterns, n-layer architecture, SQL, NoSQL, and NewSQL databases, DevOps, SRE, microservices, serverless, and now the likes of MCP, RAG, etc.
+
+The economics of computing itself doesn't even match anything outside computing. Software quality, including performance and security, is the least of concerns for IT corporations. Subscriptions with increasingly higher pricing and worse services and conditions is their priority.
+
+Roles dedicated to performance or security, as in an expert in runtime environment optimization or an applied cryptographer, are usually only available at places like Google. They are too expensive and specialized for most companies. Likewise, not every IT company has an actuarian, statistician, or economist. They normally do with far less than that.
+
+----
+
+Job market in computing
+Jul. 11th, 2025 01:38 am
+
+Since I'm about to graduate from my CS degree (graduation is in October 2025), it makes sense to look for a job. Sadly, the job market in computing is mostly about supporting overengineered systems that fulfill mostly unnecessary tasks (e.g., how to insert more web ads using AI to users that are fed up with web ads and AI).
+
+The real information systems we ought to care about are the ones providing the most essential of services, either for everyday living or for expanding our frontier of knowledge. Like the ones sustaining national and regional power grids, water supply in cities, safe roads, accessible sidewalks, emergency services, severe weather warnings, climate change tracking, fundamental physics, computational mathematics, ecosystems research, biochemical interactions.
+
+Commercial information systems, meant for making more money for private business (as opposed to actually solving pressing issues or keeping society afloat), are meaningless in spirit. They often involve complex problems in distributed data management or statistical data analysis, which are interesting in computer science. But they provide no actual, long-lasting value to society at large, only short-term financial gains to investors.
+
+I guess I'd pick a job as a Linux sysadmin. Albeit it's now called DevOps Engineer, Cloud Engineer, Site Reliability Engineer, and similar names. Now companies want Kubernetes, Docker, Terraform; AWS, Azure, GCP; Apache Spark, Apache Flink, and the plethora of Apache projects; Python, Go, Java, C#, and about any programming language under the sun; certifications from Red Hat (IBM), Cisco, AWS, Microsoft, and several other corporations.
+
+In the late 1990s and early 2000s, plain HTML (perhaps CSS, and not that much JavaScript), Bash, PHP, Perl, C (using CGI), and SQL (e.g., MySQL) were enough to make meaningful information systems that people actually used. Granted, they were inefficient at scale and full of vulnerabilities. But they were more understandable and debuggable. Mailing lists, forums, personal websites by engineers, and product documentation were the only sources.
+
+Now, everyone's vibe coding on GPT, without even understanding what they asked or what they get as an answer. And, more importantly, without even having an idea of long-term effects of their code in the overall architecture of the system. Indeed, it was somewhat like that when people copy-pasted solutions from a forum. Still, there was a human who actually wrote and explained that code.
+
+Now an LLM with 100+ billion parameters, trained on content in scraped from all over the web, generates a believable answer with believable complex explanations. However, generative AI is inherently unreliable. The "M" (model) in LLM means there are multivariable probabilistic distributions that represent data, encoded as weights in the neural network. But higher-order inference, as provided by thinking humans, is just not there in the way we need.
+
+----
+
+A courtroom with a long dining table
+Jul. 11th, 2025 01:02 am
+
+Today I dreamt I was in a room on the 5th floor of an old wooden building, in what seems to be a village near the sea in a northern country. I confronted a man in his 30s due to ideological differences (he was greedy and corrupt), then I defenestrated him by pushing him through a tall window. I saw he lying dead on the snow.
+
+Then I submitted myself to justice. I supposed it was going to be a sentence of at least 10 or 15 years. I walked through another old building, along with someone who I assumed was my lawyer.
+
+We entered what seemed to be a courtroom, but it featured a long dining table. It wasn't placed horizontally before judges, but vertically from the front to the back of the room. I took seat at one end of the table, in the back of the room.
+
+Suddenly, Boris Johnson, the former British prime minister, sat in front of me and talked to me. I didn't understand much of what he said (in tune with his eclectic, uncouth style in the real world).
+
+Then, the trial started.
+
+----
+
+End of an Era
+Jul. 11th, 2025 12:25 am
+
+Suitably, I'm listening to Nightwish as I write this (cf., the open letter in October 2005, https://web.archive.org/web/20051026034802/http://www.nightwish.com/english/lettertotarjaen.html).
+
+In my case, it's about how, almost 2 decades since I started my Computer Science major, I'm about to graduate.
+
+I started my CS major in March 2006, but I deeply disliked the way foundations were not properly taught. So I switched to a Mathematics major in 2008. It was the most sombre time.
+
+Due to anxiety disorder and depression, I've stumbled time and again in my courses. I dropped courses mid-way, failed courses that I attended to the last day, considered suicide time and again (e.g., after failing Linear Algebra).
+
+I decided to start working full-time in 2015, when I started as a Linux sysadmin for an ISP, and then as a Python and Go backend developer. That was yet another emotionally devastating time, due to organizational culture.
+
+I decided to come back to the Computer Science major in 2020, just in time for the pandemics. I still remember watching the news in December 2019 and telling myself "this is like the bird flu in 2002". I expected it to be contained in East Asia, but public health worldwide wasn't prepared.
+
+Somehow, I managed to complete my coursework, albeit with lackluster grades. The very last courses were about Computing and Society (a quite enjoyable one with an Windows infrastructure manager from the Costa Rican Central Bank, where we discussed economics, history, and ethics of computing) and Data Mining (not particularly enjoyable, but I learned about HDBSCAN, Latent Dirichlet Allocation, Apriori frequent pattern mining, and other assorted topics).
+
+While there are intellectually difficult topics in practice (e.g., how to get concurrency right in pthreads, how to solve ODEs using annihilators, how to design secure web session management), it shouldn't be emotionally draining to work on them. But it was always like this to me. That's how it took me about 2 decades to get an Bachelor's degree in Computer Science.
+

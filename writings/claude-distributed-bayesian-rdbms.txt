@@ -1,0 +1,27 @@
+I started the design and implementation of a distributed Bayesian RDBMS engine for edge inference (e.g., field sensors in geospatial applications). This is a proof of concept written from scratch in C++. It's meant for learning Bayesian inference and its known computational limitations in practice. Does it make sense technically or commercially?
+
+----
+
+Your project makes solid technical sense as a learning vehicle, though the commercial viability faces significant challenges.
+
+**Technical merits:**
+- Combining distributed systems with Bayesian inference is intellectually rich territory that will teach you about both domains
+- Edge deployment for geospatial sensors is a legitimate use case where low-latency inference matters
+- Building from scratch in C++ gives you deep understanding of the computational bottlenecks you mentioned
+- The RDBMS component adds interesting questions about how to store and query probabilistic data structures
+
+**Technical challenges to explore:**
+- Bayesian inference scales poorly with model complexity - you'll hit computational walls quickly
+- Distributed Bayesian updating is non-trivial (how do you merge posterior distributions across nodes?)
+- RDBMS design for probabilistic data has unresolved questions around indexing, querying, and consistency
+- Memory and compute constraints on edge devices severely limit model sophistication
+
+**Commercial reality:**
+The market is tough. Established players like PostgreSQL extensions, specialized time-series databases, and cloud ML services dominate. Edge AI is moving toward lightweight neural networks rather than full Bayesian inference due to computational constraints.
+
+However, there might be niche applications in scientific computing, environmental monitoring, or research contexts where the probabilistic modeling capabilities justify the complexity.
+
+**Recommendation:**
+Pursue it as a learning project - you'll gain valuable insights into distributed systems, probabilistic computing, and database internals. Keep the commercial expectations realistic, but document your learnings well. The knowledge you gain could lead to contributions in adjacent areas or inform future projects with clearer market fit.
+
+What specific aspects of Bayesian inference are you most interested in exploring through this implementation?

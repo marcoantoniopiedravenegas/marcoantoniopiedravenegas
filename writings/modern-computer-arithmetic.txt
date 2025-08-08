@@ -1,0 +1,4 @@
+Richard Brent and Paul Zimmermann: Modern Computer Arithmetic
+
+https://inria.hal.science/cel-01500109/
+https://members.loria.fr/PZimmermann/mca/pub226.html

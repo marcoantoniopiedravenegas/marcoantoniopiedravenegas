@@ -1,0 +1,4 @@
+#!/bin/sh
+## /etc/sddm/Xsetup
+
+xrandr --output eDP

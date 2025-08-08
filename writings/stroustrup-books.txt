@@ -1,0 +1,71 @@
+https://books.ms/main/6AF7720F6819DF1EFC73B9C641320024
+
+Programming: Principles and Practice Using C++
+
+Author(s): Bjarne Stroustrup
+
+Publisher: Addison-Wesley Professional, Year: 2024
+
+ISBN: 0138308683,9780138308681,9780138308643,9780138308667,9780136816485
+
+Description:
+
+An Introduction to Programming by the Inventor of C++
+
+Programming: Principles and Practice Using C++, Third Edition, will help anyone who is willing to work hard learn the fundamental principles of programming and develop the practical skills needed for programming in the real world. Previous editions have been used successfully by many thousands of students. This revised and updated edition
+• Assumes that your aim is to eventually write programs that are good enough for others to use and maintain
+• Focuses on fundamental concepts and techniques, rather than on obscure language-technical details
+• Is an introduction to programming in general, including procedural, object-oriented, and generic programming, rather than just an introduction to a programming language
+• Covers both contemporary high-level techniques and the lower-level techniques needed for efficient use of hardware
+• Will give you a solid foundation for writing useful, correct, type-safe, maintainable, and efficient code
+• Is primarily designed for people who have never programmed before, but even seasoned programmers have found previous editions useful as an introduction to more effective concepts and techniques
+• Covers a wide range of essential concepts, design and programming techniques, language features, and libraries
+• Uses contemporary C++ (C++20 and C++23)
+• Covers the design and use of both built-in types and user-defi ned types, complete with input, output, computation, and simple graphics/GUI
+• Offers an introduction to the C++ standard library containers and algorithms
+
+----
+
+https://books.ms/main/11614C40147360D1085524658C974C35
+
+Tour of C++, A (C++ In-Depth Series)
+
+Author(s): Bjarne Stroustrup
+
+Publisher: Addison-Wesley Professional, Year: 2022
+
+ISBN: 0136816487,9780136816485
+
+Description:
+In A Tour of C++, Third Edition, Bjarne Stroustrup provides an overview of ISO C++, C++20, that aims to give experienced programmers a clear understanding of what constitutes modern C++. Featuring carefully crafted examples and practical help in getting started, this revised and updated edition concisely covers most major language features and the major standard-library components needed for effective use.
+
+Stroustrup presents C++ features in the context of the programming styles they support, such as object-oriented and generic programming. His tour is remarkably comprehensive. Coverage begins with the basics, then ranges widely through more advanced topics, emphasizing newer language features. This edition covers many features that are new in C++20 as implemented by major C++ suppliers, including modules, concepts, coroutines, and ranges. It even introduces some library components in current use that are not scheduled for inclusion in the standard until C++23.
+
+This authoritative guide does not aim to teach you how to program (for that, see Stroustrup's Programming: Principles and Practice Using C++, Second Edition), nor will it be the only resource you'll need for C++ mastery (for that, see Stroustrup's The C++ Programming Language, Fourth Edition, and recommended online sources). If, however, you are a C or C++ programmer wanting greater familiarity with the current C++ language, or a programmer versed in another language wishing to gain an accurate picture of the nature and benefits of modern C++, you won't find a shorter or simpler introduction.
+
+----
+
+https://books.ms/main/C7EAD738B08913984E424BEF03FCAB0C
+
+The C++ Programming Language, 4th Edition
+
+Author(s): Bjarne Stroustrup
+
+Publisher: Addison-Wesley Professional, Year: 2013
+
+ISBN: 0-321-56384-0
+
+Description:
+C++11 has arrived: thoroughly master it, with the definitive new guide from C++ creator Bjarne Stroustrup, C++ Programming Language, Fourth Edition! The brand-new edition of the worlds most trusted and widely read guide to C++, it has been comprehensively updated for the long-awaited C++11 standard. Extensively rewritten to present the C++11 language, standard library, and key design techniques as an integrated whole, Stroustrup thoroughly addresses changes that make C++11 feel like a whole new language, offering definitive guidance for leveraging its improvements in performance, reliability, and clarity. C++ programmers around the world recognize Bjarne Stoustrup as the go-to expert for the absolutely authoritative and exceptionally useful information they need to write outstanding C++ programs. Now, as C++11 compilers arrive and development organizations migrate to the new standard, they know exactly where to turn once more: Stoustrups C++ Programming Language, Fourth Edition.
+
+----
+
+https://books.ms/main/DB7A139FD318C6CDE731DEF09EA23351
+
+The design and evolution of C ; Reading, Mass. Addison-Wesley : 1994 repr. 1995
+
+Author(s): B Stroustrup
+
+Publisher: Addison-Wesley , Year: 1994
+
+ISBN: 0201543303,9780201543308

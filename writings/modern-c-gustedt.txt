@@ -1,0 +1,4 @@
+Jens Gustedt: Modern C (2024)
+
+https://gustedt.gitlabpages.inria.fr/modern-c/
+https://inria.hal.science/hal-02383654

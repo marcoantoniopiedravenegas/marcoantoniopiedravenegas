@@ -1,0 +1,35 @@
+What are your book choices for entry-level university STEM courses?
+
+----
+
+# Book Recommendations for Entry-Level University STEM Courses
+
+I'd be happy to recommend some excellent textbooks for introductory STEM courses that are widely used at universities. These books are known for clear explanations, helpful examples, and solid foundational knowledge.
+
+## Mathematics
+- **Calculus**: *Calculus: Early Transcendentals* by James Stewart
+- **Linear Algebra**: *Linear Algebra and Its Applications* by David C. Lay
+- **Discrete Mathematics**: *Discrete Mathematics and Its Applications* by Kenneth Rosen
+
+## Physics
+- **General Physics**: *University Physics* by Young and Freedman
+- **Physics for Scientists and Engineers** by Serway and Jewett
+
+## Chemistry
+- **General Chemistry**: *Chemistry: The Central Science* by Brown, LeMay, and Bursten
+- **Organic Chemistry**: *Organic Chemistry* by Paula Yurkanis Bruice
+
+## Biology
+- **General Biology**: *Campbell Biology* by Reece, Urry, Cain, et al.
+- **Molecular Biology**: *Molecular Biology of the Cell* by Alberts, Johnson, et al.
+
+## Computer Science
+- **Programming**: *Starting Out with Python* by Tony Gaddis
+- **Data Structures**: *Data Structures and Algorithms in Python* by Goodrich, Tamassia, and Goldwasser
+- **Computer Systems**: *Computer Systems: A Programmer's Perspective* by Bryant and O'Hallaron
+
+## Engineering
+- **Introduction to Engineering**: *Engineering Fundamentals: An Introduction to Engineering* by Saeed Moaveni
+- **Electrical Engineering**: *Fundamentals of Electric Circuits* by Alexander and Sadiku
+
+Would you like more specific recommendations for any particular STEM field or course?

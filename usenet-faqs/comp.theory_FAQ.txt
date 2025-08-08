@@ -1,0 +1,734 @@
+Path: senator-bedfellow.mit.edu!bloom-beacon.mit.edu!nycmny1-snh1.gtei.net!cpk-news-hub1.bbnplanet.com!news.gtei.net!nf3.bellglobal.com!news-nb00s0.nbnet.nb.ca!newsfeed.unb.ca!interlab.cs.unb.ca!not-for-mail
+From: alexl-o-theory-faq@interlab.cs.unb.ca
+Newsgroups: comp.theory,comp.answers,news.answers
+Subject: comp.theory Frequently Asked Questions
+Supersedes: <theory-faq-1-1003770301@interlab.cs.unb.ca>
+Followup-To: comp.theory
+Date: 29 Oct 2001 14:06:05 -0400
+Organization: University of New Brunswick
+Lines: 715
+Approved: news-answers-request@MIT.Edu
+Distribution: world
+Expires: 04 Nov 01 14:05:00 ADT
+Message-ID: <theory-faq-1-1004378700@interlab.cs.unb.ca>
+Reply-To: alexl-o-theory-faq@interlab.cs.unb.ca (Alex Lopez-Ortiz)
+NNTP-Posting-Host: interlab.cs.unb.ca
+X-Trace: malakbel.unb.ca 1004375019 6720 131.202.241.151 (29 Oct 2001 17:03:39 GMT)
+X-Complaints-To: usenet@malakbel.unb.ca
+NNTP-Posting-Date: 29 Oct 2001 17:03:39 GMT
+Keywords: FAQ, Theory, Logic, Complexity, Computer
+Xref: senator-bedfellow.mit.edu comp.theory:30448 comp.answers:47608 news.answers:218108
+
+Posted-By: auto-faq 3.3 (Perl 5.005)
+Archive-name: theory-faq
+Posting-Frequency: posted weekly
+
+Comp.Theory FAQ
+
+
+---------------------------------------------------------------------------
+
+Table of Contents
+
+  1. Introduction
+  2. Purely Theoretical Models of Computation
+  3. Theoretical Models of More Practical Importance
+  4. Kolmogorov Complexity
+  5. Sorting and related topics
+  6. Permutations and Random number generators
+  7. P vs NP
+  8. Complexity Theory
+  9. Logic in Computer Science
+ 10. Algorithm Libraries
+ 11. Open Problems.
+ 12. Electronic Resources
+ 13. Bibliography
+
+---------------------------------------------------------------------------
+
+  1. Introduction
+
+     History of (Theoretical) Computer Science
+
+          "[W]e so readily assume that discovering, like seeing or
+          touching, should be unequivocally attributable to an
+          individual and to a moment in time. But the latter
+          attribution is always impossible, and the former often is as
+          well. [...] discovering [...] involves recognizing both that
+          something is and what it is."
+          -- Thomas S. Kuhn, The Structure of Scientific Revolutions,
+          2nd Ed, 1970.
+
+     In the same manner, there is no particular time or person who should
+     be credited with the discovery or creation of theoretical computer
+     science. However, there are important steps along the way towards the
+     consolidation of the study of systematic resolution of problems as a
+     science.
+
+     Timeline:
+
+     EARLY ALGORITHMS
+
+     300 B.C.
+          Greatest Common Divisor Algorithm proposed by Euclid.
+
+     250 B.C.
+          Sieve of Eratosthenes for prime numbers.
+
+          Compass and straight edge (ruler) constructions
+
+     780-850 A.D.
+          Abu Ja'far Mohammed Ben Musa al-Khwarizmi publishes two books,
+          "Al-Khwarizmi on the Hindu Art of Recknoning" and "Hisab al-jabr
+          w'al-muqabala". His surname, al-Khowarazmi, is the root from
+          which the word algorithm is derived. The word algebra is derived
+          from the title of the second book.
+
+     1424 A.D.
+          Ghiyath al-Din Jamshid Mas'ud al-Kashi computes pi to sixteen
+          decimal places.
+
+          EARLY ANALYSIS
+
+     1845
+          Gabriel Lame showed that Euclid's algorithm takes no more
+          division steps than 5 times the number of decimal digits of the
+          smaller number
+
+     1910
+          H. C. Pocklington describes the complexity of an algorithm as
+          polynomial on the number of bits.
+
+          COMPUTABILITY
+
+     1900
+          David Hilbert proposes the famous tenth problem asking for a
+          general procedure to solve diophantine equations (polynomial
+          equations with integer unknowns), setting the background for a
+          formal definition of computable and computability.
+
+          LOGIC FOUNDATIONS
+
+     1920-30
+          Post proposes a simple unary model of computation known as the
+          Post machine.
+
+     1930-35
+          Goedel proves that any set of axioms containing the axioms of
+          integer numbers (arithmetic) has undecidable propositions.
+
+     1930
+          Alonzo Church introduces lambda-calculus.
+
+     1936
+          Alan Turing publishes the seminal paper where he presents the
+          Turing Machine, a formal model of computability which is also
+          physically realizable.
+
+     IEEE Computer has a timeline of the history of computing devices
+     available on the web. References:
+
+     E. Bach and J. Shallit. Algorithmic Number Theory : Efficient
+     Algorithms. MIT Press, 1996.
+
+  2. Purely Theoretical Models of Computation
+
+        o The Turing Machine
+        o Other equivalent models
+          Lambda Calculus, Post Machines.
+        o Weaker Models
+          DFA's or Regular Languages
+
+          NFA's or Regular Languages
+
+          PDA's or Context Free Languages (CFLs)
+
+          LBTM's or Context Sensitive Languages
+
+        o Universal Turing Machine and Church's Thesis
+        o Variations on the Turing Machine
+          NDTMs, ATMs. Oracles.
+
+  3. Theoretical Models of More Practical Importance
+
+        o RAM
+        o PRAM and other models of parallel computation (NC, AC).
+        o Other Models (DNA, Quantum Computers)
+        o Circuits
+
+  4. Kolmogorov Complexity Motivation
+
+     Consider the following sequences of coin tosses:
+
+     1) head, head, tail, head, tail, tail, tail, head, head
+
+     2) head, tail, head, tail, head, tail, head, tail, head
+
+     3) tail, tail, tail, tail, tail, tail, tail, tail, tail
+
+     Now, if you had bet a hunderd dollars on heads, it is likely that you
+     would see outcomes (2) and (3) with suspicion, due to their
+     regularity. However, standard probability theory argues that each of
+     the three outcomes above is equally (un)likely, and thus there is no
+     reason why you should complain.
+
+     In the same manner, if the sequences above had been generated by a
+     pseudo-random generator for, say, a Monte Carlo algorithm, you would
+     consider (2) and (3) to be fairly poor random sequences.
+
+     In other words, we have an intuitive notion of randomness --applicable
+     to outcomes of random trials-- which is not properly captured by
+     classic probability.
+
+     Definition
+
+     In words of A.N. Kolmogorov:
+
+          In everyday language we call random those phenomena where we
+          cannot find a regularity allowing us to predict precisely
+          their results. gernerally speaking, there is no ground to
+          believe that random phenomena should possess any definite
+          probability. Therefore, we should distinguish between
+          randomness proper (as absence of any regularity) and
+          stochastic randomness (which is the subject of probability
+          theory). There emerges the problem of finding reasons for
+          the applicability of the mathematical theory of probability
+          to the real world.
+
+     As indicated above, we tend to identify randomness with lack of
+     discernable patterns, or irregularity.
+
+          Definition A sequence of numbers is non-stochastically
+          random if it is irregular.
+
+     Further, we can narrow down the definition of irregularity.
+
+          Definition A sequence of numbers is irregular if there is no
+          discernible pattern in it.
+
+     While it might seem that this is not much progress, we are now in fact
+     very close to a formal definition.
+
+     Three key observations need to be made:
+
+       1. Some sequences seem more regular than others, which suggests the
+          need for a measure of randomness (as opposed to a strict yes/no
+          criterion).
+       2. We can use Church's Thesis to define "discernible" as anything
+          that can be computed or discovered by a computer, such as a
+          Turing Machine.
+       3. A "pattern" is anything that allows us to make a succint
+          description of a sequence.
+
+     For example, a sequence such as 00000000000000000000000000000000 can
+     be described by a short program such as
+
+      for i=1,30 print 0
+
+     while a sequence with no pattern can only be described by itself (or
+     some equally long sequence), e.g. 01001101110111011000001011
+
+      print 01001101110111011000001011
+
+          Definition The Kolmogorov Complexity K(x)of a string x is
+          the length of the shortest program that outputs it.
+
+     One can actually show that the choice of programming language affects
+     the Kolmogorov Complexity by at most a constant additive factor (i.e.
+     such factor does not depend on x) for all but a finite number of
+     strings x.
+
+          Definition A string is said to be incompressible (i.e.
+          random or irregular) if
+          K(x) > length(x)+constant
+
+     Reference:
+
+     Li, M and Vitanyi, P. An Introduction to Kolmogorov Complexity and its
+     applications. New York, Springer-Verlag, 1993.
+
+  5. Sorting and related topics
+
+     (a) What is the fastest sort?
+
+     The answer to this question depends on (i) what you are sorting and
+     (ii) which tools you have.
+
+     To be more precise, the parameters for (i) are the (a) size of the
+     universe from which you select the elements to be sorted, (b) the
+     number of elements to be sorted, (c) whether the comparison function
+     can be applied over parts of the keys, (d) information on the
+     distribution of the input.
+
+     For (ii) we have the amount of available primary and secondary storage
+     as a function of (i.a) and (i.b), and the power of the computational
+     model (sorting network, RAM, Turing Machine, PRAM).
+
+     To illustrate with a simple example, sorting n different numbers in
+     the interval [1,n] can be done trivially in linear time on a RAM.
+
+     A well studied case is sorting n elements from an infinite universe
+     with a sequence of comparators which only accept two whole elements
+     from the universe as input and produce as output the sorted pair.
+
+     These comparators may be arranged in a predetermined manner or the
+     connections can be decided at run time.
+
+     It turns out that this apparently unrealistic setting (after all we
+     sort with von Neumann RAM machines running programs which use
+     arithmetic operations) models a large class of sorting algorithms for
+     RAMs which are used in practice, and thus the importance of the next
+     section.
+
+     (b) n log n information bound
+
+          Theorem. Any comparison based sorting program must use at
+          least ceil(lg N!) > N lg N - N/ ln 2 comparisons for some
+          input.
+
+     The main two reasons for using this model are that (a) it is amenable
+     to study and (b) it produces bounds and timings that were generally
+     sufficiently close to practical applications.
+
+     However, nowadays servers come routinely equipped with up to 1
+     Gigabyte of memory. Under this configuration some methods which are
+     memory intensive (such as radix sort or bucket sort) become practical.
+     In fact, a method such as bucket sort on N = 10,000,000 records and
+     100,000 buckets takes time 27 N. In contrast, the best comparison
+     based sorting algorithms take time ~ 40 N.
+
+     Recently, Andersson has proposed a promising algorithm that takes time
+     O(n log log n) which takes the advantage of the fact that RAM
+     computers can operate on many bits (usally 32 or 64) bits on a single
+     instruction. You can find more information in Stefan Nilsson's Home
+     Page.
+
+          Theorem. It is possible to sort n keys each occupying L
+          words in O(nL) time using indirect addressing on a RAM
+          machine.
+
+          Theorem. A set of n keys of length w = word size can be
+          sorted in linear space in O(n log n/log log n) time.
+
+     Other sorts:
+
+        o Adaptive sorting
+        o Sorting Networks
+
+     References:
+
+     R. Sedgewick, P. Flajolet. An introduction to the anlysis of
+     algorithms. Addison Wesley, 1996.
+
+     A. Andersson. Sorting and Searching Revisited. Proceedings of the 5th
+     Scandinavian Workshop on Algorithm Theory. Lecture Notes in Computer
+     Science 1097. Springer-Verlag, 1996.
+
+     Electronic Resources:
+
+     Sedgewick's Shell Sort home page.
+
+     Pat Morin's sorting Java Applets
+
+  6. Permutations and Random number generators The pLab page on the "Theory
+     and Practice of Random Number Generation" is a very good start
+
+  7. P vs NP
+
+     Historical Context
+
+     If one goes back a couple of hundred years, we can see that the
+     historical motivation for the study of complexity of algorithms is the
+     desire to identify, under a formal framework, those problems that can
+     be solved "fast".
+
+     To achieve this, we need to formally define what we mean by "problem",
+     "solve" and "fast".
+
+     Let's postpone the issue of what "problem" and "solve" is by
+     restricting ourselves to well-defined mathematical problems such as
+     addition, multiplication, and factorization.
+
+     One of the first observations that can be made then, is that even some
+     "simple" problems may take a long time if the question is long enough.
+     For example, computing the product of two numbers seems like a fast
+     enough problem, Nevertheless one can easily produce large enough
+     numbers that would bog down a fast computer for a few minutes.
+
+     We can conclude then that we must consider the size of the "question"
+     as a parameter for time complexity. Using this criterion, we can
+     observe that constant time answers as a function of the size of the
+     question are fast and exponential time are not. But what about all the
+     problems that might lie in between?
+
+     It turns out that even though digital computers have only been around
+     for fifty years, people have been trying for at least thrice that long
+     to come up with a good definition of "fast". (For example, Jeff
+     Shallit from the University of Waterloo, has collected an impressive
+     list of historical references of mathematicians discussing time
+     complexity, particularly as it relates to Algorithmic Number Theory).
+
+     As people gained more experience with computing devices, it became
+     apparent that polynomial time algorithms were fast, and that
+     exponential time were not.
+
+     In 1965, Jack Edmonds in his article Paths, trees, and flowers
+     proposed that "polynomial time on the length of the input" be adopted
+     as a working definition of "fast".
+
+     So we have thus defined the class of problems that could be solved
+     "fast", i.e. in polynomial time. That is, there exists a polynomial
+     p(n) such that the number of steps taken by a computer on input x of
+     length n is bounded from above by p(n). This class is commonly denoted
+     by P.
+
+     By the late 1960s it had become clear that there were some seemingly
+     simple problems that resisted polynomial time algorithmic solutions.
+     In an attempt to classify this family of problems, Steve Cook came up
+     with a very clever observation: for a problem to be solved in
+     polynomial time, one should be able --at the very least-- to verify a
+     given correct solution in polynomial time. This is called certifying a
+     solution in polynomial time.
+
+     Because, you see, if we can solve a problem in polynomial time and
+     somebody comes up with a proposed solution S, we can always rerun the
+     program, obtain the correct solution C and compare the two, all in
+     polynomial time.
+
+     Thus the class NP of problems for which one can verify the solution in
+     polynomial time was born. Cook also showed that among all NP problems
+     there were some that were the hardest of them all, in the sense that
+     if you could solve any one of those in polynomial time, then it
+     followed that all NP problems can be solved in polynomial time. This
+     fact is known as Cook's theorem, and the class of those "hardest"
+     problems in NP is known as NP-complete problems. This result was
+     independently discovered by Leonid Levin and published in the USSR at
+     about the same time.
+
+     In that sense all NP-complete problems are equivalent under polynomial
+     time transformation.
+
+     A year later, Richard Karp showed that some very interesting problems
+     that had eluded polynomial time solutions could be shown to be
+     NP-complete, and in this sense, while hard, they were not beyond hope.
+     This list grew quite rapidly as others contributed, and it now
+     includes many naturally occuring problems which cannot yet be solved
+     in polynomial time.
+
+     References
+
+     S. Cook. ``The complexity of theorem-proving procedures'', Proceedings
+     of the 3rd Annual Symposium on the Theory of Computing, ACM, New York,
+     151-158.
+     J. Edmonds. Paths, trees, and flowers.Canadian Journal of Mathematics,
+     17, pp.449-467.
+     M. R. Garey, D. S. Johnson. Computers and Intractability, W.H.Freeman
+     &Co, 1979.
+     L. Levin. Universal Search Problems, Probl.Pered.Inf. 9(3), 1973. A
+     translation appears in B. A. Trakhtenbrot. A survey of Russian
+     approaches to Perebor (brute-force search) algorithms, Annals of the
+     History of Computing, 6(4):384-400, 1984
+
+     (a) What are P and NP?
+
+     First we need to define formally what we mean by a problem. Typically
+     a problem consists of a question and an answer. Moreover we group
+     problems by general similarities.
+
+     Again using the multiplication example, we define a multiplication
+     problem as a pair of numbers, and the answer is their product. An
+     instance of the multiplication problem is a specific pair of numbers
+     to be multiplied.
+
+     Problem. Multiplication
+     Input. A pair of numbers x and y
+     Output. The product x times y
+
+     A clever observation is that we can convert a multiplication problem
+     into a yes/no answer by joining together the original question and the
+     answer and asking if they form a correct pair. In the case of
+     multiplication, we can convert a question like
+     4 x 9 = ??
+
+     into a yes/no statement such as
+
+     "is it true that 4 x 9 = 36?" (yes), or
+     "is it true that 5 x 7 = 48?" (no).
+
+     In general we can apply this technique to most (if not all) problems,
+     simplifying formal treatment of problems.
+
+          Definition A decision problem is a language L of strings
+          over an alphabet. A particular instance of the problem is a
+          question of the form "is x in L?" where x is a string. The
+          answer is yes or no.
+
+     The rest of this section was written by Daniel Jimenez
+
+     P is the class of decision problems for which we can find a solution
+     in polynomial time.
+
+          Definition A polynomial time function is just a function
+          that can be computed in a time polynomial in the size of its
+          parameters.
+
+          Definition P is the class of decision problems (languages) L
+          such that there is a polynomial time function f(x) where x
+          is a string and f(x)=True (ie. yes) if and only if x is in
+          L.
+
+     NP is the class of decision problems for which we can check solutions
+     in polynomial time.
+
+          Definition NP is the class of decision problems (languages)
+          L such that there is a polynomial time function f(x,c) where
+          x is a string, c is another string whose size is polynomial
+          in the size of x, and f(x,c)=True if and only if x is in L.
+
+     c in the definition is called a "certificate", the extra information
+     needed to show that x is indeed in the language. NP stands for
+     "nondeterministic polynomial time", from an alternate, but equivalent,
+     definition involving nondeterministic Turing machines that are allowed
+     to guess a certificate and then check it in polynomial time. (Note: A
+     common error when speaking of P and NP is to misremember that NP
+     stands for "non-polynomial"; avoid this trap, unless you want to prove
+     it :-)
+
+     An example of a decision problem in NP is:
+
+     Decision Problem. Composite Number
+     Instance. Binary encoding of a positive integer n.
+     Language. All instances for which n is composite, i.e., not a prime
+     number.
+
+     We can look at this as a language L by simply coding n in log n bits
+     as a binary number, so every binary composite number is in L, and
+     nothing else. We can show this problem is in NP by providing a
+     polynomial time f(x,c) (also known as a "polynomial time proof system"
+     for L). In this case, c can be the binary encoding of a non-trivial
+     factor of n. Since c can be no bigger than n, the size of c is
+     polynomial (at most linear) in the size of n. The function f simply
+     checks to see whether c divides n evenly; if it does, then n is proved
+     to be composite and f returns True. Since division can be done in time
+     polynomial in the size of the operands, Composite Number is in NP.
+
+     (b) What is NP-hard?
+
+     An NP-hard problem is at least as hard as or harder than any problem
+     in NP. Given a method for solving an NP-hard problem, we can solve any
+     problem in NP with only polynomially more work.
+
+     Here's some more terminology. A language L' is polynomial time
+     reducible to a language L if there exists a polynomial time function
+     f(x) from strings to strings such that x is in L' if f(x) is in L.
+     This means that if we can test strings for membership in L in time t,
+     we can use f to test strings for membership in L' in a time polynomial
+     in t. (hint) An example of this would be the relationship between
+     Composite Number and Boolean Circuit Satisfiability.
+
+     Decision Problem. Boolean Circuit Satisfiability
+     Instance. A Boolean circuit with n inputs and one output. (Note: in
+     this and the following descriptions of decision problems, it is
+     assumed that the actual instance is a reasonable string encoding of
+     the given instance, so we can still talk about languages of strings.)
+     Language. All instances for which there is an assignment to the inputs
+     that causes the output to become True.
+
+     Composite Number is polynomial time reducible to Boolean Circuit
+     Satisfiability by the following reduction: To decide whether an
+     instance x is in Composite Number, construct a circuit that multiplies
+     two integers given in binary on its inputs and compares the result to
+     x, giving True as the output if and only if the result of the
+     multiplication is x and neither of the input integers is one. The
+     multiplier can be constructed and checked in polynomial time and
+     space, and the comparison can be done in linear time and space.
+
+     Polynomial time reducibility formalizes the notion of one problem
+     being harder than another. If L can be used to solve instances of L',
+     then L is at least as hard as or harder than L'.
+
+     Definition A decision problem L is NP-hard if, for every language L'
+     in NP, L' is polynomially reducible to L.
+
+     So a solution to an NP-hard problem running in time t can be used to
+     solve any problem in NP in a time polynomial in t (possibly different
+     polynomials for different problems). NP-hard problems are at least as
+     hard as or harder than any problem in NP. Boolean Circuit
+     Satisfiability is an example of an NP-hard problem. A related problem,
+     Boolean Formula Satisfiability (commonly called SAT), is also NP-hard;
+     see Garey and Johnson for a proof of Cook's Theorem, which was the
+     first proof to show that a problem (satisfiability) is NP-hard.
+
+     An example of an NP-hard problem that isn't known to be in NP is
+     Maximum Satisfiability:
+
+     Decision Problem. Maximum Satisfiability (MAXSAT)
+     Instance. A Boolean formula F and an integer k.
+     Language. All instances for which F has at least k satisfying
+     assignments.
+
+     This problem is harder than SAT because of this reduction: Suppose we
+     want to decide whether a formula F is in SAT. We can simply choose k
+     to be one and see if (F, k) is in MAXSAT. If so, then there is at
+     least one satisfying assignment and the formula is in SAT.
+
+     (c) What is NP-complete?
+
+     Definition A decision problem L is NP-complete if it is both NP-hard
+     and in NP.
+
+     So NP-complete problems are the hardest problems in NP. Since Cook's
+     Theorem was proved in 196?, thousands of problems have been proved to
+     be NP-complete. Probably the most famous example is the Travelling
+     Salesman Problem:
+
+     Decision Problem. Travelling Salesman Problem (TSP)
+     Instance. A set S of cities, a function f:S x S -> N giving the
+     distances between the cities, and an integer k.
+     Language. The travelling salesman departs from a starting city, goes
+     through each city exactly once, and returns to the start. The language
+     is all instances for which there exists such a tour through the cities
+     of S of length less than or equal to k.
+
+     (b) NP complete list
+
+     Pierluigi Crescenzi and Viggo Kann mantain a good list of NP
+     optimization problems
+
+     (d) Other complete problems (PSPACE, P).
+
+  8. Complexity Theory
+
+     (a) Lower Bounds
+
+     (b) YACC (Yet Another Complexity Class)
+
+  9. Logic in Computer Science
+
+ 10. Algorithm Libraries
+
+     Stony Brook Algorithms Repository
+
+     Library of Efficient Datatypes and Algorithms (LEDA)
+
+ 11. Open Problems.
+
+     There are several important open problems within theoretical computer
+     science. Among them
+
+     P =? NP
+
+     AC != P
+
+     Find RAM problem with time complexity T(n) = \omega(n log n). T(n) =
+     O(n^k).
+
+     Show that sorting is n log n on a RAM with constant word size.
+
+     Find exact time complexity of prime decomposition.
+
+ 12. Electronic Resources
+        o ACM Computing Research Repository "http://www.acm.org/repository"
+          SIGACT Home Page "http://sigact.acm.org/sigact/"
+        o Fundamentals of Computing "http://www.cs.bu.edu/fac/lnd/toc/" By
+          Leonid Levin.
+        o Analysis of Algorithms Home Page
+          "http://pauillac.inria.fr/algo/AofA/index.html"
+        o Computer Science Bibliography Collection
+          "http://liinwww.ira.uka.de/bibliography/index.html"
+        o Average-Case Complexity Forum "http://www.uncg.edu/mat/acc-forum"
+        o The Steiner Tree Web Page "http://ganley.org/steiner/"
+        o Search Trees with Relaxed Balance Home Page
+          "http://www.imada.ou.dk/~kslarsen/RelBal/"
+        o The Alonzo Church Archive "http://www.alonzo.org"
+        o Theoretical Computer Science On The Web
+          "http://robotics.stanford.edu/~suresh/theory/"
+        o Electronic Colloqium on Computational Complexity
+          http://www.eccc.uni-trier.de/eccc/index.html
+        o by Eitan Gurari, Ohio State University Computer Science Press,
+          1989, ISBN 0-7167-8182-4
+          "http://www.cis.ohio-state.edu/~gurari/theory-bk/theory-bk.html"
+        o Online search systems for CS publications:
+             + Bibnet "http://www.netlib.no/netlib/bibnet/faq.html"
+             + Technical Report Research Service
+               "http://www.hensa.ac.uk/search/techreps/"
+             + Unified Computer Science Index
+               "http://www.cs.indiana.edu:800/cstr/search" Technical
+               Reports Library
+             + The Hypertext Bibliography Project
+               "http://theory.lcs.mit.edu/~dmjones/hbp/"
+             + On-line CS Techreports
+               "http://www.cs.cmu.edu/afs/cs.cmu.edu/user/jblythe/Mosaic/cs-reports.html"
+             + The New Zealand Digital Library
+               "http://www.cs.waikato.ac.nz/~nzdl/"
+             + Computer Science Techni cal Reports
+               "http://www.rdt.monash.edu.au/tr/siteslist.html" Archive
+               Sites
+             + Networked Computer Science "http://www.ncstrl.org/"
+               Technical Reports Library
+             + Computer Science Bibliography Glimpse Server
+               "http://glimpse.cs.arizona.edu:1994/bib/" Networked Computer
+               Science "http://www.ncstrl.org/"
+             + Survey in combinatorial topology by Dey, Edelsbrunner, and
+               Guha. (includes descriptions of applications).
+               "http://www.ics.uci.edu/~eppstein/gina/DeyEdelsbrunnerGuha.ps.Z"
+
+ 13. Bibliography
+
+     Among the truly few FAQs in this newsgroup are recommendations for a
+     Data Structures book and a Complexity Theory book. Here are some
+     titles. In brackets I've added the number of e-mail recommendations
+     that I get plus any comments.
+
+     Data Structures and Analysis of Algorithms
+
+     Textbooks
+
+     Baase, Sara. Computer algorithms : introduction to design and analysis
+     of algorithms. 2nd ed. Addison-Wesley Pub. Co., c1988.
+
+     Flajolet, Philippe and Sedgewick, Robert. An introduction to the
+     analysis of algorithms. Addison-Wesley, c1996.
+
+     Lewis, H and Denenberg, L. Data Structures and their Algorithms.
+     Harper-Collins, 1991.
+
+     Cormen, Thomas; Leiserson, Charles; Rivest, Ronald. Introduction to
+     algorithms. MIT Press, 1989.
+
+     Goodman and Hedetniemi. Introduction to the Design and Analysis of
+     Algorithms. McGraw-Hill.
+
+     Hopcroft and Ullman. Introduction to Authomata Theory, Languages and
+     Computation. Addison-Wesley.
+
+     Complexity Theory
+
+     Papadimitriou, Christos H. Computational complexity. Addison-Wesley,
+     c1994.
+
+     D.Bovet and P. Crescenzi. Introduction to the Theory of Complexity.
+     Prentice Hall.
+
+     C.-K. Yap: "Theory of Complexity Classes". Via FTP. General Interest
+
+     Hofstadter, D. Godel, Escher and Bach: An Eternal Golden Braid,
+     Penguin Books.
+
+     Lewis and Papadimitrou, C. The Efficiency of Algoritms. Scientific
+     American 238 1 (1978).
+
+     Homer, S. and Selman A. Complexity Theory Algorithms
+
+     The Algorithm Design Manual. Steve Skiena. Springer-Verlag, 1997.
+
+     References
+
+     Knuth, D. The Art of Computer Programming. Addison Wesley.
+
+---
+Alex Lopez-Ortiz                            Faculty of Computer Science
+Assistant Professor                         University of New Brunswick
+alexl-o-theory-faq@interlab.cs.unb.ca        Fredericton, New Brunswick
+http://www.cs.unb.ca/~alopez-o                          Canada, E3B 5A3
+

@@ -1,0 +1,20 @@
+There’s a sort of unsettling, alien quality to their computers’ results. When
+the teams examine the ways that singular value decomposition is slotting movies
+into categories, sometimes it makes sense to them — as when the computer
+highlights what appears to be some essence of nerdiness in a bunch of sci-fi
+movies. But many categorizations are now so obscure that they cannot see the
+reasoning behind them. Possibly the algorithms are finding connections so deep
+and subconscious that customers themselves wouldn’t even recognize them. At one
+point, Chabbert showed me a list of movies that his algorithm had discovered
+share some ineffable similarity; it includes a historical movie, “Joan of Arc,”
+a wrestling video, “W.W.E.: SummerSlam 2004,” the comedy “It Had to Be You” and
+a version of Charles Dickens’s “Bleak House.” For the life of me, I can’t
+figure out what possible connection they have, but Chabbert assures me that
+this singular value decomposition scored 4 percent higher than Cinematch — so
+it must be doing something right. As Volinsky surmised, “They’re able to tease
+out all of these things that we would never, ever think of ourselves.” The
+machine may be understanding something about us that we do not understand
+ourselves.
+
+If You Liked This, You’re Sure to Love That
+https://www.nytimes.com/2008/11/23/magazine/23Netflix-t.html

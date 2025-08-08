@@ -1,0 +1,86 @@
+Inference and Learning from Data
+https://www.cambridge.org/highereducation/books/inference-and-learning-from-data/7115D17F2DF717915636A9C4329817C3
+
+Volume 1: Foundations
+https://www.cambridge.org/highereducation/books/inference-and-learning-from-data/A48B26F6011D3591DD0F2D2FE10FD092
+
+1. Matrix theory
+2. Vector differentiation
+3. Random variables
+4. Gaussian distribution
+5. Exponential distributions
+6. Entropy and divergence
+7. Random processes
+8. Convex functions
+9. Convex optimization
+10. Lipschitz conditions
+11. Proximal operator
+12. Gradient descent method
+13. Conjugate gradient method
+14. Subgradient method
+15. Proximal and mirror descent methods
+16. Stochastic optimization
+17. Adaptive gradient methods
+18. Gradient noise
+19. Convergence analysis I: stochastic gradient algorithms
+20. Convergence analysis II: stochasic subgradient algorithms
+21. Convergence analysis III: stochastic proximal algorithms
+22. Variance-reduced methods I: uniform sampling
+23. Variance-reduced methods II: random reshuffling
+24. Nonconvex optimization
+25. Decentralized optimization I: primal methods
+26. Decentralized optimization II: primal-dual methods
+
+Volume 2: Inference
+https://www.cambridge.org/highereducation/books/inference-and-learning-from-data/A63B42BA05C697043C4075EA7CC83932
+
+27. Mean-Square-Error inference
+28. Bayesian inference
+29. Linear regression
+30. Kalman filter
+31. Maximum likelihood
+32. Expectation maximization
+33. Predictive modeling
+34. Expectation propagation
+35. Particle filters
+36. Variational inference
+37. Latent Dirichlet allocation
+38. Hidden Markov models
+39. Decoding HMMs
+40. Independent component analysis
+41. Bayesian networks
+42. Inference over graphs
+43. Undirected graphs
+44. Markov decision processes
+45. Value and policy iterations
+46. Temporal difference learning
+47. Q-learning
+48. Value function approximation
+49. Policy gradient methods
+
+Volume 3: Learning
+https://www.cambridge.org/highereducation/books/inference-and-learning-from-data/5A9DA0128F87FB658779BE7FBD4C9A9D
+
+50. Least-squares problems
+51. Regularization
+52. Nearest-neighbor rule
+53. Self-organizing maps
+54. Decision trees
+55. Naive Bayes classifier
+56. Linear discriminant analysis
+57. Principal component analysis
+58. Dictionary learning
+59. Logistic regression
+60. Perceptron
+61. Support vector machines
+62. Bagging and boosting
+63. Kernel methods
+64. Generalization theory
+65. Feed forward neural networks
+66. Deep belief networks
+67. Convolutional networks
+68. Generative networks
+69. Recurrent networks
+70. Explainable learning
+71. Adversarial attacks
+72. Meta learning

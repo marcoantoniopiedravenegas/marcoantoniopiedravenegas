@@ -1,0 +1,7 @@
+#!/bin/sh
+## Copy script to $HOME/.local/bin
+
+export MESA_LOADER_DRIVER_OVERRIDE="iris"
+export JAVA_TOOL_OPTIONS="-Djogl.disable.openglarbcontext=1"
+
+$HOME/MATLAB/R2024b/bin/matlab

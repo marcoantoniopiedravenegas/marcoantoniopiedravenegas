@@ -1,0 +1,35 @@
+Szeliski (2022):
+
+Digital image processing
+Blocks world, line labeling
+Generalized cylinders
+Pattern recognition
+Stereo correspondence
+Intrinsic images
+Optical flow
+Structure from motion
+Image pyramids
+Shape from shading, texture, and focus
+Physically-based modeling
+Regularization
+Markov random fields
+Kalman filters
+3D range data processing
+Projective invariants
+Factorization
+Physics-based vision
+Graph cuts
+Particle filtering
+Energy-based segmentation
+Face recognition and detection
+Image-based modeling and rendering
+Texture synthesis and inpainting
+Computational photography
+Feature-based recognition
+Category recognition
+Machine learning
+Modeling and tracking humans
+Semantic segmentation
+SLAM and VIO
+Deep learning
+Vision and language

@@ -1,0 +1,7 @@
+In about:config
+
+geo.provider.network.url:
+data:application/json,{"location": {"lat": 9.976308, "lng": -84.055981}}
+
+geo.provider.use_geoclue:
+false

@@ -1,0 +1,11 @@
+Altus (2016-2019): Ingeniero de Software
+Automatización de CI/CD usando GitLab y Docker en desarrollo de aplicaciones de terceros en el ecosistema de tecnologías Cisco. Se minimizó el tiempo de puesta en funcionamiento en un 60%. Utilicé lenguajes como Python y Go para implementar backends (API REST). Realicé ingeniería inversa de sistemas legados de colaboración, originalmente desarrollados en Java y C++, con el propósito de interoperabilidad con tecnologías modernas.
+
+Altus (2015-2016): Especialista en Servidores
+Soporte de sistemas críticos en servidores Linux, incluyendo un CRM implementado en Java, servidores DNS con PowerDNS, y servidores de bases de datos Oracle, subcontratado para una compañía de telecomunicaciones. Se resolvieron incidentes dentro del SLA (99%). También proporcioné soporte técnico para cliente interno (ingenieros de red, analistas de negocio).
+
+Universidad de Costa Rica (2007-2015): Asistente de Soporte en Tecnologías de la Información
+Asistencia en configuración de servidores web, servidores de correo, y servidores DNS usando Linux (Debian, Ubuntu). Realicé implementación de sitios académicos usando CMS como Drupal y Moodle.
+
+Sykes (2005-2006): Agente de Soporte Técnico
+Resolución de consultas por correo electrónico para el mercado germanoparlante. Proporcioné soluciones a clientes de plataformas web, con un incremento de satisfacción al cliente de 25% y altas métricas en control de calidad.
